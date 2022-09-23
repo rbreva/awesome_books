@@ -84,7 +84,7 @@ header {
   border-bottom: 1px solid var(--white);
 }
 
-.navmenu__btn:hover{
+.navmenu__btn:hover {
   border-bottom: 1px solid var(--black);
   background: var(--grey);
 }
@@ -198,7 +198,7 @@ h2 {
 
 .contact__li {
   list-style: disc;
-  padding: 0.5rem
+  padding: 0.5rem;
 }
 
 .copy {
