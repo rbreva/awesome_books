@@ -14,7 +14,7 @@ Awesome books: plain JavaScript with objects
 
 
 ## Live Demo
-[Live Demo Link](https://rbreva.github.io/awesome_books/)
+[Live Demo Link]not available yet
 
 
 ### Prerequisites
