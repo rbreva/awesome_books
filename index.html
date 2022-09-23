@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Awesome books - Mauricio Mendoza</title>
-  <link  rel="icon" type="image/png" href="images/mm_ico.png">
+  <link rel="icon" type="image/png" href="images/mm_ico.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -13,20 +13,53 @@
 </head>
 <body>
 <header>
-  <h1>All Awesome books</h1>
+  <div class="menu">
+    <h1>Awesome books</h1>
+    <nav>
+      <ul class="navmenu">
+        <li class="navmenu__li"><button class="navmenu__btn" id="list">List</button></li>
+        <li class="navmenu__li"><button class="navmenu__btn" id="newBook">Add New</button></li>
+        <li class="navmenu__li"><button class="navmenu__btn" id="contact">Contact</button></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="date">fecha y hora</div>
 </header>
 <div class="container">
-  <div class="books">  </div>
-  <hr>
-  <h2>Add a new book</h2>
-  <form class="new_book">
-    <input type="text" class="new_book__title" id="bookTitle" name="bookTitle" placeholder="Title">
-    <input type="text" class="new_book__author" id="bookAuthor" name="bookAuthor" placeholder="Author">
-    <button type="submit" class="new_book__addBtn" id="addBtn">Add</button>
-    <div class="new_book__alertMsg" id="alertMsg"></div>
-  </form>
+
+  <section class="allBooks">
+    <h2>All Awesome books</h2>
+    <div class="books">  </div>
+    <hr>
+  </section>
+
+  <section class="newBook">
+    <h2>Add a new book</h2>
+    <form class="new_book">
+      <input type="text" class="new_book__title" id="bookTitle" name="bookTitle" placeholder="Title">
+      <input type="text" class="new_book__author" id="bookAuthor" name="bookAuthor" placeholder="Author">
+      <button type="submit" class="new_book__addBtn" id="addBtn">Add</button>
+      <div class="new_book__alertMsg" id="alertMsg"></div>
+    </form>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Information</h2>
+    <p class="contact__p">Do you have any questions or you just want to say "Hello"?</p>
+    <p class="contact__p">You can reach out to us!</p>
+    <ul class="contact__ul">
+      <li class="contact__li">Our e-mail: mail@mail.com</li>
+      <li class="contact__li">Our phone number: 0043586534422</li>
+      <li class="contact__li">Our address: Streetname 22, 84503 City, Country</li>
+    </ul>
+  </section>
+
 </div>  
-<footer></footer>
+<footer>
+  <div class="copy">Copyright &copy; ...</div>
+</footer>
 <script src="js/awesomeBooksClasses.js"></script>
+<script src="js/date.js"></script>
+<script src="js/menu.js"></script>
 </body>
 </html>
